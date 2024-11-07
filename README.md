@@ -20,6 +20,20 @@ The `PAT_IntervalMap` library provides a versatile and efficient way to manage i
 
 ## Example Usage
 
+## expected Serial Output:
+
+- **Heart Rate**:  55 bpm - Status: Bradycardia Alert.
+- **SpO2 Level**: 92% - Status: Low Oxygen Alert.
+- **ALERT**: Monitor patient closely; consider intervention.
+- **Heart Rate**:  150 bpm - Status: Critical Tachycardia.
+- **SpO2 Level**: 88% - Status: Critical Hypoxia Alert.
+- **Blood Pressure**: 160/100 mmHg - Status: Critical Hypertension.
+- **EMERGENCY**: Immediate medical intervention required!.
+- **Heart Rate**:  72 bpm - Status: Normal Heart Rate.
+- **SpO2 Level**: 89% - Status: Critical Hypoxia Alert.
+- **Blood Pressure**: 140/90 mmHg - Status: Critical Hypertension.
+- **EMERGENCY**: Immediate medical intervention required!.
+
 ```cpp
 #include <Arduino.h>
 #include "../src/PAT_IntervalMap.h"
